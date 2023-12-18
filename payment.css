@@ -1,0 +1,125 @@
+.paymentMaple{
+    height: 3.5rem;
+    aspect-ratio: 12/9;
+}
+form > label, label>input {
+display: block;
+
+}
+form>label{
+    padding: .5rem;
+}
+label>input{
+    margin: 3px 0;
+}
+.shoppingSumm,.amountflex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.imgcard,.amountcard,.amountflex>div{
+    padding: 1rem;
+}
+.paymentsecOne{
+    border: 1px solid;
+    padding: 1.5rem;
+    background-color: rgba(184, 210, 236, 0.928);
+    border-radius: 1rem;
+    width: 50vw;
+}
+.cardpass{
+    color: #444;
+    font-size: 20px;
+}
+.paymentsecTwo{
+    padding: 1rem;
+    border: 1px solid;
+    background-color: rgba(184, 210, 236, 0.928);
+    border-radius: 1rem;
+    width: 50vw;
+}
+.card_payment{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.cart{
+    gap: 10rem;
+    /* justify-content:space-around; */
+    /* align-items: self-start; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartOncart>div{
+border: 2px solid;
+padding: 0 10rem 0 0 ;
+border-radius: 1rem;
+background-color: aliceblue;
+}
+.card{
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.cart_item-img{
+    height: 12vh;
+    width: 7vw;
+}
+
+
+
+@media (max-width:980px) {
+    .cart_item{
+        flex-direction:row;
+        width: 80vw;
+        
+    }
+    .cart_item-img{
+        height: 12vh;
+        width: 7vw;
+    }
+    .paymentsecTwo{
+       width: 80vw;
+    }
+
+    .paymentsecOne{
+       width: 80vw;
+
+    }
+    .card{
+        height: 25vh;
+    }
+    }
+@media (max-width:400px) {
+    .cart_item{
+        flex-direction:row;
+        /* flex-wrap: wrap; */
+        width: 50vw;
+        
+    }
+    .cart_item-img{
+        height: 10vh;
+        width: 30vw;
+    }
+    .paymentsecTwo{
+       width: 80vw;
+    }
+
+    .paymentsecOne{
+       width: 80vw;
+
+    }
+
+    }
+
+
+
+
+
+
+

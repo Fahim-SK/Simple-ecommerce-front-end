@@ -1,0 +1,55 @@
+textarea{
+    resize: none; 
+    padding: 1rem;
+    /* padding: 20px; */
+    border-radius: 5px;
+    height: 30vh;
+    width: 40vw;
+}
+.contact-text{
+    text-align: center;
+}
+.submit-button{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color:#333;
+    color: white;
+    transition: var(--transition);
+    margin: 5px 0;
+}
+.submit-button:hover{
+    background-color:white;
+    color: #333;
+}
+.contact-location{
+    text-align: center;
+}
+.contact-whole{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    height: 40vh;
+    width: 40vw;
+}
+.invisible{
+    display: none;
+}
+@media (max-width:992px) {
+    .contact-whole{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .map{
+        height: 40vh;
+        width: 60vw;
+    }
+    textarea{
+        height: 35vh;
+        width: 60vw;
+    }
+}

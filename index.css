@@ -1,0 +1,147 @@
+.social-input{
+    background-color: #999;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    color: white;
+    font-weight: bolder;
+}
+.login-stats,.login-presentation{
+    text-align: center;
+}
+.box-login{
+    height: 55%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;  
+    /* border: 2px solid;  */
+    border-radius: 3rem;
+    background-color: white;
+    box-shadow:.5rem 0.2rem 1rem black;
+}
+.login-presentation{
+    background-color: #C25E5E;
+   width: 100%;
+   height: 100%;
+   border-radius: 3rem;
+   display: flex;
+   align-items: center;
+   /* border-left: 2px solid; */
+   border-bottom-left-radius: 7rem ;
+   border-top-left-radius: 9rem ;
+   border: 2px solid; 
+
+}
+.login-written{
+    padding: 2rem;
+    color: white;
+}
+.login-whole{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,white,var(--primary-color));
+}
+.login-stats{
+    padding: 4rem;
+    height: 100%;
+}
+.social-button{
+    border:black 1px solid ;
+    border-radius: 4px;
+    padding: 7px;
+    background-color: white;
+    margin: 5px 0;
+}
+.sign-in{
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    background-color: #999;
+    transition: var(--transition);
+    font-weight: bolder;
+}
+.sign-in:hover{
+    background-color: #C25E5E;
+}
+@media (max-width:992px) {
+    .login-presentation{
+        display: none;
+    }
+    .box-login{
+        height: 70vh;
+    }
+}
+@media (max-width:500px) {
+    .box-login{
+        height: 70vh;
+        width: 80vw;
+    }
+}
+@media (max-width:320px) {
+    .box-login{
+        height: 70vh;
+        width: 100vw;
+    }
+}
+.invisible{
+    display: none;
+}
+
+.llll{
+    background: url(/images/maple.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+    border-radius: 3rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+    color: white;
+    flex-direction: column;
+}
+.animatedPayment{
+    margin: 18rem;
+    opacity: 0.5;
+    animation-name: myanime;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+
+.login-whole{
+ position: relative;
+}
+/* .box-login{
+   animation-name:login;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+@keyframes login {
+    0%{position: absolute;left: -25%;opacity: 0.5;}
+    100%{position: absolute;opacity: 1;left: 25%}
+} */
+
+
+
+
+
+
+    @keyframes myanime {
+        0%{margin: 18rem; opacity: 0; }
+        100%{margin: 2rem; opacity: 1; }
+    }
+@media (max-width:992px) {
+    .llll{
+        width: 50vw;
+    }
+}
